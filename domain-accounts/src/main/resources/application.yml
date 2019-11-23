@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: domain-accounts
+server:
+  port: 8092
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostanme: localhost
